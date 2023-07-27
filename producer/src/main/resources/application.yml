@@ -7,3 +7,15 @@ spring:
     username: admin
     password: 123456
     virtual-host: boot_host
+  mail:
+    default-encoding: utf-8
+    host: smtp.qq.com
+    username: 1374054035@qq.com
+    password: spsqeexwhxktfjfj
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+            required: true
+        debug: true
