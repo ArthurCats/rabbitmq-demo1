@@ -11,3 +11,8 @@ spring:
       simple:
         acknowledge-mode: manual
         prefetch: 1
+        retry:
+          max-attempts: 5
+          initial-interval: 7000
+          enabled: true
+
